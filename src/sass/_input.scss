@@ -7,7 +7,7 @@
   display: inline-block;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     pointer-events: none;
     display: block;
@@ -43,7 +43,7 @@
 
   &::before {
     position: absolute;
-    content: '\1f50d';
+    content: "\1f50d";
     top: 47px;
     left: 15px;
   }
@@ -51,6 +51,7 @@
 
 .input-field {
   display: block;
+
   padding: 10px 20px 10px 40px;
 
   border-radius: 30px;
