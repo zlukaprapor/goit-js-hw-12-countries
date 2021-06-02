@@ -9,7 +9,7 @@ function alertSearchError(message) {
   clearOutput();
   defaultStack.close();
   error({
-    title: "Search query error!",
+    title: "Ошибка поискового запроса!",
     text: message,
     delay: 3000,
   });
@@ -17,17 +17,16 @@ function alertSearchError(message) {
 
 export function alertNoMatches() {
   refs.output.classList.add("empty");
-  alertSearchError("Nothing matches the search");
+  alertSearchError("Ничего не найдено");
 }
 
 export function alertTooManyMatches() {
   refs.output.classList.add("empty");
   alertSearchError(
-    "Too many matches found. Please enter a more specific query"
+    "Найдено слишком много совпадений. Пожалуйста, введите более конкретный запрос"
   );
 }
 
 export function clearOutput() {
-  refs.output.innerHTML =
-    "[EMPTY]: please enter the query in the search field...";
+  refs.output.innerHTML = "Пожалуйста введите запрос на Английском языке...";
 }

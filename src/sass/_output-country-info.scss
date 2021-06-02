@@ -15,22 +15,22 @@
   text-decoration: underline;
 }
 
-.wiki-ref {
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-}
+// .wiki-ref {
+//   display: flex;
+//   align-items: center;
+//   margin-left: 20px;
+// }
 
-.wiki-ref::after {
-  content: '';
-  height: 50px;
-  width: 50px;
-  margin-left: 10px;
+// .wiki-ref::after {
+//   content: '';
+//   height: 50px;
+//   width: 50px;
+//   margin-left: 10px;
 
-  background-image: url(../images/Wikipedia_svg_logo-en.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+//   background-image: url(../images/Wikipedia_svg_logo-en.svg);
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
 
 .country-info {
   display: flex;

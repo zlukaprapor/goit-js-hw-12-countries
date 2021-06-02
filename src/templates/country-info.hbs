@@ -1,17 +1,17 @@
 <div class='country-heading'>
   <h2 class='country-name'>{{name}}</h2>
-  <a
+  {{!-- <a
     class='wiki-ref'
     href='https://en.wikipedia.org/wiki/{{name}}'
     target='_blank'
-  >... learn more on Wiki</a>
+  >... learn more on Wiki</a> --}}
 </div>
 <div class='country-info'>
   <div class='country-meta'>
-    <p>Capital: <span class='country-data'>{{capital}}</span></p>
-    <p>Population:
+    <p>Столица: <span class='country-data'>{{capital}}</span></p>
+    <p>Население:
       <span class='country-data js-population'>{{population}}</span></p>
-    <p>Languages:</p>
+    <p>Языки:</p>
     <ul class='country-languages'>
       {{#each languages}}
         <li class='language country-data'>{{this.name}}</li>

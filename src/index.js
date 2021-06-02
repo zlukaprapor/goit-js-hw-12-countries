@@ -32,7 +32,7 @@ const handleCountryData = data => {
   }
 
   if (data.length === 0) {
-    refs.output.innerHTML = 'No countries found. Please try a proper query!';
+    refs.output.innerHTML = 'Страны не найдены. Пожалуйста, попробуйте правильный запрос!';
     refs.output.classList.add('empty');
     return;
   }
