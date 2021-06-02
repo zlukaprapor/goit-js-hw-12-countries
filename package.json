@@ -27,6 +27,7 @@
   "dependencies": {
     "@pnotify/core": "^5.2.0",
     "deploy": "^1.0.3",
-    "js": "^0.1.0"
+    "js": "^0.1.0",
+    "lodash.debounce": "^4.0.8"
   }
 }
