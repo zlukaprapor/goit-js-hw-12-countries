@@ -36,7 +36,9 @@
 
 .input-label span {
   display: inline-block;
-  margin-left: 10px;
+
+  margin-left: 250px;
+  margin-top: 50px;
   margin-bottom: 10px;
 
   font-size: 1.2rem;
@@ -44,14 +46,14 @@
   &::before {
     position: absolute;
     content: "\1f50d";
-    top: 47px;
-    left: 15px;
+    top: 95px;
+    left: 225px;
   }
 }
 
 .input-field {
   display: block;
-
+  margin-left: 210px;
   padding: 10px 20px 10px 40px;
 
   border-radius: 30px;
